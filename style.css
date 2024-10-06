@@ -1,0 +1,30 @@
+#V{
+    position: fixed;
+    bottom: 0;
+    right: 0;      
+}
+.beau-bouton {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .beau-bouton:hover {
+    background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .beau-bouton:active {
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
